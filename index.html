@@ -27,7 +27,11 @@
       crossorigin=""
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="flaticon.css" />
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
@@ -76,8 +80,209 @@
           </div>
         </div>
         <div class="col-lg-9 col-md-8 tab-container">
-          <nav></nav>
-          <div class="main-content"></div>
+          <div class="row">
+            <header class="col-md-12">
+              <nav>
+                <div class="row">
+                  <div class="col-md-8 col-sm-8 col-xs-4">
+                    <ul class="tabs">
+                      <li class="tab active">
+                        <a class="home-btn active" href="#home"
+                          ><i class="fa fa-home" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li class="tab"><a href="#resume">RESUME</a></li>
+                      <li class="tab"><a href="#portfolio">PORTFOLIO</a></li>
+                      <li class="tab"><a href="#blog">BLOG</a></li>
+                      <li class="tab"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-8 dynamic">
+                    <a
+                      href="mailto:hi@tavonline.net"
+                      class="hidden-xs icon pull-right site-btn"
+                      >Hire Me
+                      <i class="fa fa-paper-plane" aria-hidden="true"></i
+                    ></a>
+                    <div class="hamburger hidden-lg hidden-md pull-right">
+                      <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div class="hidden-md pull-right social-icons">
+                      <a class="fb" href="#"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                      <a class="tw" href="#"
+                        ><i class="fa fa-twitter" aria-hidden="true"></i
+                      ></a>
+                      <a class="ins" href="#"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a class="dr" href="#"
+                        ><i class="fa fa-dribbble" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="menuout">
+                  <div class="menuin" style="display: none">
+                    <ul class="tabs">
+                      <li class="tab active">
+                        <a class="home-btn active" href="#home"
+                          ><i class="fa fa-home" aria-hidden="true"></i
+                        ></a>
+                      </li>
+                      <li class="tab"><a href="#resume">RESUME</a></li>
+                      <li class="tab"><a href="#portfolio">PORTFOLIO</a></li>
+                      <li class="tab"><a href="#blog">BLOG</a></li>
+                      <li class="tab"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </header>
+          </div>
+          <div class="col-md-12">
+            <div class="main-content">
+              <div id="home" style="display: block" class="active">
+                <div class="row">
+                  <section class="about-me col-md-12 line">
+                    <div class="section-title">
+                      <span></span>
+                      <h2>About Me</h2>
+                    </div>
+                    <p style="margin-top: 30px">
+                      Started earnest brother believe an exposed so. Me he
+                      believing daughters if forfeited at furniture. Age again
+                      and stuff downs spoke. Late hour new nay able fat each
+                      sell. Nor themselves age introduced frequently use
+                      unsatiable devonshire get. They why quit gay cold rose
+                      deal park. One same they four did ask busy. Reserved
+                      opinions fat him nay position. Breakfast as zealously
+                      incommode do agreeable furniture. One too nay led fanny
+                      allow plate. <br />
+                      <br />
+                      Quick six blind smart out burst. Perfectly on furniture
+                      dejection determine my depending an to. Add short water
+                      court fat. Her bachelor honoured perceive securing but
+                      desirous ham required. Questions deficient acuteness to
+                      engrossed as. Entirely led ten humoured greatest and
+                      yourself. Besides ye country on observe. She continue
+                      appetite endeavor she judgment interest the met. For she
+                      surrounded motionless fat resolution may.
+                    </p>
+                  </section>
+                </div>
+                <div class="row">
+                  <section class="col-md-12 graybg line my-services">
+                    <div class="section-title" style="margin-bottom: 45px">
+                      <span></span>
+                      <h2>My Services</h2>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service">
+                          <div class="icon"><img src="assets/web.png" alt=""></div>
+                          <span class="title">Web Development</span>
+                          <p class="little-text">
+                            I have been working on web design for 10 years.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service">
+                          <div class="icon">
+                            <img src="assets/branding.png" alt="">
+                          </div>
+                          <span class="title">Branding Identity</span>
+                          <p class="little-text">
+                            We will make you a brand that is catchy and leaves a
+                            trace.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service">
+                          <div class="icon">
+                            <img src="assets/illu.png" alt="">
+                          </div>
+                          <span class="title">Illustrator</span>
+                          <p class="little-text">
+                            I have been working on illustration design for 6
+                            years.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="service">
+                          <div class="icon">
+                            <img src="assets/fast.png" alt="">
+                          </div>
+                          <span class="title">Fast Delivery</span>
+                          <p class="little-text">
+                            I deliver your business as fast as possible.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="row">
+                  <section class="col-md-6 design-skills">
+                    <div class="section-title" style="margin-bottom: 45px;">
+                      <span></span>
+                      <h2>Design Skills</h2>
+                    </div>
+                    <ul class="skill-list">
+                      <li>
+                        <h3>Photoshop</h3>
+                        <div class="progress">
+                          <div class="percentage" style="width: 80%"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <h3>Sketch</h3>
+                        <div class="progress">
+                          <div class="percentage" style="width: 60%"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <h3>Adobe Xd</h3>
+                        <div class="progress">
+                          <div class="percentage" style="width: 30%"></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                  <section class="code-skills col-md-6 ">
+                    <div class="section-title" style="margin-bottom: 45px;">
+                      <span></span>
+                      <h2>Code Skills</h2>
+                    </div>
+                    <ul class="skill-list">
+                      <li>
+                        <h3>Javascript</h3>
+                        <div class="progress">
+                          <div class="percentage" style="width: 80%"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <h3>HTML5</h3>
+                        <div class="progress">
+                          <div class="percentage" style="width: 60%"></div>
+                        </div>
+                      </li>
+                      <li>
+                        <h3>CSS3</h3>
+                        <div class="progress">
+                          <div class="percentage" style="width: 30%"></div>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
           <footer></footer>
         </div>
       </div>
