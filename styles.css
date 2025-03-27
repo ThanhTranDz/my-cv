@@ -519,6 +519,239 @@ ul.timeline {
   background: #FFC107; /* Màu vàng đậm khi active */
 }
 
+#portfolio section {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.content-header {
+  z-index: 5;
+  margin-bottom: 15px;
+}
+
+#portfolio section {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.cbp {
+  z-index: 1;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.cbp-l-loadMore-button {
+  text-align: center;
+}
+
+.cbp-filter-item {
+  display: inline-block;
+  /* padding: 10px 15px; */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cbp-filter-item:hover {
+  background-color: #f0f0f0;
+}
+
+#portfolio #filters-container .cbp-filter-item {
+  color: #787878;
+  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.cbp-wrapper-outer,
+.cbp-wrapper,
+.cbp-wrapper-helper {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+.cbp-wrapper-outer {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.cbp-ready .cbp-item,
+.cbp-ready .cbp-wrapper,
+.cbp-ready .cbp-wrapper-helper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#portfolio .cbp-item {
+  padding: 15px !important;
+}
+.cbp .cbp-item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.cbp-l-loadMore-link.site-btn {
+  border-radius: 50px;
+  border: 0 !important;
+  /* padding: 10px 29px !important; */
+  font-family: Roboto, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 35px !important;
+}
+
+.cbp-filter-item-active {
+  color: #ffc500 !important;
+}
+
+#portfolio .cbp-item figure .icon {
+  text-align: center;
+  opacity: 0;
+  vertical-align: middle;
+  margin-top: -20px;
+  transition: all 0.3s;
+  display: table-cell;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+#portfolio .cbp-item figure img,
+.work figure {
+  width: 100%;
+}
+
+.cbp-lightbox img {
+  border: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cbp img {
+  border: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#portfolio .cbp-item-wrapper {
+  border-radius: 6px;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0 0 48px #04060414;
+}
+
+.cbp a,
+.cbp a:hover,
+.cbp a:active {
+  outline: 0;
+  text-decoration: none;
+}
+
+#portfolio .cbp-item figure .icon {
+  text-align: center;
+  opacity: 0;
+  vertical-align: middle;
+  margin-top: -20px;
+  transition: all 0.3s;
+  display: table-cell;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+#portfolio .cbp-item:hover figure .icon {
+  opacity: 0.9;
+  transition: all 0.3s;
+  transform: translateY(-25px);
+}
+
+#portfolio .cbp-item figure .icon i {
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  background: #ffc500;
+  border-radius: 50px;
+  min-width: 50px;
+  padding: 17px 0 16px;
+  transition: all 0.3s;
+}
+
+#portfolio .cbp-item figure .icon i:before {
+  font-size: 18px;
+}
+
+#portfolio .cbp-item figcaption {
+  padding: 14px;
+}
+
+#portfolio .cbp-item figcaption .title {
+  color: #000;
+  font-size: 14px;
+}
+
+#portfolio .cbp-item figcaption .info {
+  color: #989898;
+  font-size: 13px;
+  line-height: 18px;
+  display: block;
+}
+#blog .cbp-item {
+  padding: 15px !important;
+}
+
+#blog a.blog-box {
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0 0 48px #04060414;
+}
+#blog a.blog-box .blog-img {
+  position: relative;
+}
+
+.blog-img {
+  overflow: hidden;
+  display: block;
+}
+
+.blog-img img {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-box:hover .blog-img img {
+  transform: scale(1.1);
+}
+
+#blog a.blog-box .blog-box-info {
+  padding: 15px;
+}
+#blog .blog-box span.date {
+  font-family: arial;
+  font-size: 11px;
+  color: #505050 !important;
+}
+
+
+#blog a.blog-box .blog-box-info .little-text {
+  padding: 5px 0;
+}
+#blog .blog-box .title {
+  color: #000;
+  padding: 2px 0 4px;
+  font-size: 15px;
+  line-height: 20px;
+}
+#blog .blog-box span.category {
+  color: #afafaf;
+  font-size: 13px;
+}
 footer .footer {
   color: #fff;
   background: #1e1e1e;
@@ -634,6 +867,19 @@ ul.profile-information li:first-child:before,
   color: #000 !important;
 }
 
+.cbp-l-loadMore-button .cbp-l-loadMore-link, .cbp-l-loadMore-button .cbp-l-loadMore-button-link {
+  color: #7e7b7b;
+  box-shadow: none;
+  border: 1px solid #dedede;
+  outline: 0;
+  min-width: 80px;
+  margin-top: 40px;
+  padding: 0 30px;
+  font: 400 12px/36px Open Sans,sans-serif;
+  text-decoration: none;
+  transition: color .25s;
+  display: inline-block;
+}
 .site-btn:hover,
 header nav a.home-btn:hover,
 .section-title span {
