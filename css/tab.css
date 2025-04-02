@@ -1,0 +1,7 @@
+.tabs .tab.active a {
+    color: #ffb100; /* Change text color */
+  }
+  
+  .tabs .tab:hover a {
+    color: #ffb100; /* Change text color */
+  }

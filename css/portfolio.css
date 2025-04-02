@@ -1,0 +1,112 @@
+#portfolio section {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+#portfolio section {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+#portfolio .cbp-item {
+  padding: 15px !important;
+}
+
+#portfolio .cbp-item figure .icon {
+  text-align: center;
+  opacity: 0;
+  vertical-align: middle;
+  margin-top: -20px;
+  transition: all 0.3s;
+  display: table-cell;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+#portfolio .cbp-item figure img,
+.work figure {
+  width: 100%;
+}
+
+#portfolio .cbp-item-wrapper {
+  border-radius: 6px;
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 0 0 48px #04060414;
+}
+
+#portfolio .cbp-item figure .icon {
+  text-align: center;
+  opacity: 0;
+  vertical-align: middle;
+  margin-top: -20px;
+  transition: all 0.3s;
+  display: table-cell;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+#portfolio .cbp-item:hover figure .icon {
+  opacity: 0.9;
+  transition: all 0.3s;
+  transform: translateY(-25px);
+}
+
+#portfolio .cbp-item figure .icon i {
+  color: #fff;
+  text-align: center;
+  text-align: center;
+  background: #ffc500;
+  border-radius: 50px;
+  min-width: 50px;
+  padding: 17px 0 16px;
+  transition: all 0.3s;
+}
+
+#portfolio .cbp-item figure .icon i:before {
+  font-size: 18px;
+}
+
+#portfolio .cbp-item figcaption {
+  padding: 14px;
+}
+
+#portfolio .cbp-item figcaption .title {
+  color: #000;
+  font-size: 14px;
+}
+
+#portfolio .cbp-item figcaption .info {
+  color: #989898;
+  font-size: 13px;
+  line-height: 18px;
+  display: block;
+}
+
+#portfolio #filters-container .cbp-filter-item {
+  color: #787878;
+  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+  font-size: 14px;
+}
+#portfolio .cbp-item figure .icon {
+  text-align: center;
+  opacity: 0;
+  vertical-align: middle;
+  margin-top: -20px;
+  transition: all 0.3s;
+  display: table-cell;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+#portfolio .cbp-item figure img,
+.work figure {
+  width: 100%;
+}

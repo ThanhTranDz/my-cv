@@ -1,0 +1,28 @@
+.my-services {
+  background: #fafafa;
+  padding: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.service {
+  background: #fff;
+  border-radius: 8px;
+  min-height: 186px;
+  padding: 20px;
+  box-shadow: 0 0 48px #04060414;
+}
+.service .icon img {
+  width: 44px;
+  margin-bottom: 10px;
+}
+.service .icon i:before {
+  margin-left: 0;
+  font-size: 44px;
+}
+
+.service span.title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+}

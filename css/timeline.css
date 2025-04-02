@@ -1,0 +1,82 @@
+ul.timeline {
+  margin-left: 10px;
+}
+
+.timeline li:first-child i {
+  float: left;
+  text-align: center;
+  background: #fff;
+  border-radius: 30px;
+  width: 53px;
+  margin: -13px -45px;
+  padding: 18px 16px;
+}
+.timeline li:first-child {
+  padding: 0 0 60px 19px;
+}
+.timeline li {
+  border-left: 2px solid #ececec;
+  padding: 0 0 40px 30px;
+  list-style: none;
+}
+
+.timeline li:last-child {
+  border: 0;
+  margin-left: 2px;
+}
+
+.timeline-title {
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.timeline li:not(:first-child) {
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  position: relative;
+}
+
+.timeline li:not(:first-child):hover {
+  transform: scale(1.08);
+  filter: brightness(1.2);
+}
+
+.timeline li:not(:first-child):hover p {
+  font-weight: 500;
+}
+.timeline li:before {
+  content: "";
+  background: #fff;
+  border: 2px solid;
+  border-radius: 50px;
+  width: 8px;
+  height: 8px;
+  margin-top: -1px;
+  margin-left: -35px;
+  font-size: 8px;
+  font-weight: 400;
+  display: block;
+  position: absolute;
+}
+
+.timeline li:not(:first-child):hover:before {
+  background: #ffc02e;
+  transform: scale(1.5);
+  font-weight: 500;
+}
+.timeline li .line-title {
+  font-size: 16px;
+  line-height: 6px;
+}
+
+.timeline li span {
+  padding: 9px 0;
+  font-size: 12px;
+  display: block;
+}
+.timeline li:first-child:before {
+  background: 0 0;
+  border: 0;
+  position: relative;
+}

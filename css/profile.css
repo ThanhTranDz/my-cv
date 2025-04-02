@@ -1,0 +1,115 @@
+.profile {
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: 0 2px 92px #00000012;
+  }
+  
+  .profile-name {
+    padding: 20px;
+    line-height: 18px;
+  }
+  
+  .profile-name .name {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .profile-name .job {
+    color: #777;
+    font-size: 13px;
+  }
+  .profile-image {
+    clip-path: polygon(0 9%, 100% 0, 100% 94%, 0% 100%);
+    margin-top: -18px;
+  }
+  .profile-image img {
+    width: 100%;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  ul.profile-information {
+    margin: 8px 0 8px 35px;
+    list-style: none;
+    padding-left: 0;
+  }
+  ul.profile-information li:first-child {
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+  }
+  ul.profile-information li {
+    color: #787878;
+    border-left: 2px solid #eee;
+    padding: 0 0 23px 20px;
+    font-size: 14px;
+  }
+  
+  ul.profile-information li:first-child:before {
+    border: 0;
+    width: 40px;
+    height: 40px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    margin-left: -51px;
+    padding: 11px 14px;
+    position: relative;
+    box-shadow: 0 2px 32px #047bf84d;
+  }
+  ul.profile-information li:before {
+    border-color: #ffb100 !important;
+  }
+  ul.profile-information li:first-child:after {
+    content: "";
+    background: url(assets/glassess.png) 0 0 / 27px 10px no-repeat;
+    width: 30px;
+    height: 10px;
+    margin: 16px -15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  ul.profile-information li:last-child {
+    border: 0;
+    margin-top: -2px;
+    margin-left: 2px;
+  }
+  ul.profile-information li p {
+    color: #7f7f7f;
+    font-size: 13.5px;
+    line-height: 12px;
+  }
+  ul.profile-information li span {
+    color: #000;
+  }
+  ul.profile-information li:before {
+    content: "";
+    background: #fff;
+    border: 2px solid;
+    border-radius: 50px;
+    width: 8px;
+    height: 8px;
+    margin-top: 2px;
+    margin-left: -25px;
+    font-size: 8px;
+    font-weight: 400;
+    display: block;
+    position: absolute;
+  }
+  .timeline li:before,
+  ul.profile-information li:before {
+    border-color: #ffb100 !important;
+  }
+  
+  ul.profile-information li:first-child:before {
+    background: #ffc500 !important;
+  }
+  
+  .profile .site-btn {
+    margin: 18px auto 30px;
+    display: block;
+  }

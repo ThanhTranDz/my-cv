@@ -1,0 +1,52 @@
+.testimonials {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.testimonials p {
+  color: #989898;
+  font-size: 12.5px;
+  line-height: 20px;
+}
+.testimonials .comment .top-section .name-info .job {
+  color: #d0d0d0;
+  font-size: 12px;
+}
+.testimonials .comment {
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0 0 48px #04060414;
+  min-width: 30%;
+}
+
+.testimonials .comment .top-section {
+  display: inline-block;
+}
+
+.testimonials .comment .top-section figure {
+  float: left;
+  border-radius: 50px;
+  width: 23%;
+  overflow: hidden;
+}
+
+.testimonials .comment .top-section figure img {
+  width: 100%;
+}
+
+.testimonials .comment .top-section .name-info {
+  float: left;
+  width: 68%;
+  padding: 8px 12px;
+  line-height: 15px;
+}
+.testimonials .comment .top-section .name-info .name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.testimonials .comment .top-section .name-info .job {
+  color: #d0d0d0;
+  font-size: 12px;
+}
